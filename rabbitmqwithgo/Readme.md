@@ -1,9 +1,9 @@
-## Initializing rabbitmq on local 
-# Install Docker 
-# Use command -  docker run -d --hostname rmq --name rabbit-server -p 8080:15672 -p 5672:5672 rabbitmq:3-management
-# Access the rabbitmq server on http://localhost:8080
+# Initializing rabbitmq on local 
+### Install Docker 
+### Use command -  docker run -d --hostname rmq --name rabbit-server -p 8080:15672 -p 5672:5672 rabbitmq:3-management
+### Access the rabbitmq server on http://localhost:8080
 
-# Meaning of the docker command - 
+### Meaning of the docker command - 
 docker run	- Runs a new container from an image.
 -d -	Runs the container in detached mode (in the background).
 --hostname rmq	- Sets the container's hostname to rmq (useful for internal networking).
